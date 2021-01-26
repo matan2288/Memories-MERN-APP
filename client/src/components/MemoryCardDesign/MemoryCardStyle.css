@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+.CARD-MAIN-DIV{
+text-align: center;
+
+}
+
+#deletebtn{
+color: rgb(88, 88, 88);
+margin-top: -2px;
+font-weight: bold;
+font-size: 20px;
+font-family: 'Luckiest Guy', cursive;
+}
+
+.typographyTitle{
+font-family: 'Luckiest Guy', cursive;
+color: rgb(77, 77, 77);
+}
+
+.typographyDate{
+font-size: 1rem;
+}

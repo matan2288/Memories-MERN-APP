@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+
+.header-main-container{
+margin: 5px;
+padding: 5px;
+width: 80%;
+height: 60px;
+text-align: center;
+font-family: 'Langar', cursive;
+letter-spacing: 2px;
+color: rgb(245, 245, 245);
+background: url('../IMG/MemoriesAppHeader.png');
+background-size: 28rem;
+background-repeat: no-repeat;
+background-position-x: 50%;
+background-position-y: 7px;
+}
+
+#added-img{
+padding: 45px;
+background: url('../IMG/cameraLogo.png');
+background-size: 64px;
+background-repeat: no-repeat;
+background-position-y:  -1.5px;
+background-position-x: 66.5%;
+} 
+
+
+@media (max-width: 1825px) {
+    #added-img{
+     background-position-x: 81%;
+
+    }
+
+
+}
+
+
+@media (max-width: 1050px) {
+    .header-main-container{
+        width: 100%;
+        height: 8vh;
+    }
+    #added-img{
+        display: none;
+
+    }
+}
+
+
+@media (max-width: 600px) {
+    .header-main-container{
+        width: 100%;
+        margin-bottom: 3.5vh;
+        background-size: 90vw;
+    }
+}
